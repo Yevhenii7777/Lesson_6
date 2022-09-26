@@ -148,7 +148,7 @@ body {
 		box-shadow: 20px 10px 8px 10px rgba(7, 41, 2, 0.363);
 		color: rgba(255, 255, 255, 0);
 		}
-		.bound.bound::hover {
+		.bound:hover {
 			color: rgb(27, 3, 3);
 		}
 	
