@@ -46,9 +46,8 @@ body {
 	background-color: rgba(223, 243, 243, 0.342);
 }
 .article{
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	width: 810px;
-	height: 1594px;
 	background-color: #ffffff;
 	box-shadow: 25px 35px 4px 2px rgba(29, 172, 10, 0.363);
 	
@@ -56,8 +55,7 @@ body {
 /* h1 */
 .post-header {
 	width: 810px;
-	height: 120px;
-	margin-top: 190px;
+	margin: 190px 0px 98px;
 	font-family: Lato;
 	font-style: normal;
 	font-weight: 900;
@@ -67,16 +65,15 @@ body {
 	color: #1e212c;
 	}
 .image{
-	margin-top: 98px;
-	width: 810px;
-	height: 360px;
+	margin-bottom: 60px;
+	max-width: 100%;
+	max-height: 100%;
 	border-radius: 4px;
 	}
 
 	.block1 {
 		width: 810px;
-		height: 90px;
-		margin-top: 60px;
+		margin-bottom: 24px;
 		font-family: Lato;
 		font-style: normal; 
 		font-weight: 700;
@@ -88,20 +85,12 @@ body {
 	}
 	.block2 {
 		width: 810px;
-		height: 182px;
-		margin-top: 24px;
+		margin-bottom: 48px;
 	}
 
 	.block3 {
-		width: 810px;
-		height: 120px;
-		margin-top: 48px;
-	}
-
-	.block31 {
-		margin-left: 58px;
-		width: 752px;
-		height: 120px;
+		padding-left: 58px;
+		margin-bottom: 48px;
 		font-family: Lato;
 		font-style: normal;
 		font-weight: 700;
@@ -113,37 +102,33 @@ body {
 
 	.block4 {
 		width: 810px;
-		height: 52px;
-		margin-top: 48px;
+		margin-bottom: 24px;;
 	}
 
 	.block5 {
-		padding: 0px;
-		width: 600px;
-		height: 116px;
-		margin-top: 24px;
+		padding-left: 32px;
+		max-width: 600px;
+		margin-bottom: 24px;
 	}
 	li {
 	
 		width: auto;
-		height: 26px;
-		margin: 4px 0px 0px 32px;
+		margin: 0 auto 4px;
 	}
 	
 	.block6 {
 		width: 810px;
-		height: 104px;
-		margin-top: 24px;
+		margin-bottom: 60px;
 	}
 	.block7 {
-		width: auto;
-		height: 104px;
+		width: 810px;
+		min-height: 32px;
 		}
 	.bound {
-		margin: 60px auto;
+		margin: 0px auto 50px;
 		padding: 10px;
 		max-width: 1000px;
-		height: 60px;
+		min-height: 60px;
 		background-color: #a5393957;
 		box-shadow: 20px 10px 8px 10px rgba(7, 41, 2, 0.363);
 		color: rgba(255, 255, 255, 0);
@@ -153,7 +138,7 @@ body {
 		}
 	
 	.article2 {
-		margin: 60px auto;
+		margin: 0 auto 50px;
 		padding: 20px;
 		max-height: 120px;
 		max-width: 400px;
@@ -165,7 +150,7 @@ body {
 		}
 	.article3 {
 		font-size: 0px;
-		margin: 60px auto;
+		margin: 0 auto 50px;
 		padding: 20px;
 		max-height: 120px;
 		max-width: 400px;
